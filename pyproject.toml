@@ -1,0 +1,23 @@
+[project]
+name = "merge-split-llm"
+version = "0.0.0"
+description = "A novel way to train a base model."
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+  "torch",
+  "numpy",
+  "pyyaml",
+  "tqdm",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
