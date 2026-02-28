@@ -12,5 +12,12 @@ dependencies:
   - pyyaml
   - tqdm
   - pip
+  - scikit-learn
+  - scikit-image
+  - matplotlib
+  - ipympl
+  - ipython
+  - jupyterlab
+  - ipywidgets
   - pip:
-      - lightning
+      - pytorch-lightning
